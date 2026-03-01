@@ -1,0 +1,111 @@
+.institute {
+  color: #333;
+}
+
+.institute-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 2.5rem 2rem;
+  border-radius: 12px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.institute-header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  opacity: 0.9;
+  font-size: 1rem;
+}
+
+.director-section,
+.about-section,
+.education-section,
+.faculty-section,
+.network-section,
+.contacts-section {
+  margin-bottom: 3rem;
+}
+
+.director-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  background: #f8f9fa;
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+  border: 1px solid #eee;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.director-photo {
+  width: 160px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+
+.director-card h3 {
+  color: #007bff;
+  margin-bottom: 0.3rem;
+}
+
+.programs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1rem;
+}
+
+.programs-grid a {
+  display: block;
+  padding: 1rem;
+  border-radius: 8px;
+  background: #f0f4ff;
+  border: 1px solid #e0e6ff;
+  color: #333;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.programs-grid a:hover {
+  background: #e0e6ff;
+  color: #007bff;
+}
+
+.button-link {
+  display: inline-block;
+  background: #007bff;
+  color: white !important;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-top: 1rem;
+  transition: background 0.2s;
+}
+
+.button-link:hover {
+  background: #0056b3;
+}
+
+.contacts-section a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contacts-section a:hover {
+  text-decoration: underline;
+}
+
+.institute-footer {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #eee;
+  font-size: 0.9rem;
+  color: #666;
+  text-align: center;
+}

@@ -6,6 +6,8 @@ import GroupList from "./pages/GroupList/GroupList"
 import Teachers from "./pages/Teachers/Teachers"
 import Schedule from "./pages/Schedule/Schedule"
 import Contacts from "./pages/Contacts/Contacts"
+import Institute from "./pages/Institute/Institute";
+import University from "./pages/University/University";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
             <Route path="/teachers" element={<Teachers />} />
             <Route path="/schedule" element={<Schedule />} />
             <Route path="/contacts" element={<Contacts />} />
+            <Route path="/institute" element={<Institute />} />
+            <Route path="/university" element={<University />} />
           </Routes>
         </main>
       </div>
