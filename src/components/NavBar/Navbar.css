@@ -1,0 +1,22 @@
+.navbar { 
+  background: #f8f9fa; 
+  padding: 1rem 2rem; 
+  display: flex; 
+  gap: 0; 
+  border-bottom: 1px solid #eee; 
+}
+
+.nav-link { 
+  padding: 0.75rem 1.5rem; 
+  text-decoration: none; 
+  color: #333; 
+  transition: all 0.2s; 
+  border-bottom: 3px solid transparent; 
+}
+
+.nav-link:hover { background: #e9ecef; }
+.nav-link.active { 
+  background: #007bff; 
+  color: white; 
+  border-bottom-color: #0056b3; 
+}

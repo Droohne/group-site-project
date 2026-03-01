@@ -1,0 +1,10 @@
+.group-list h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+.group-list ol {
+  padding-left: 2rem;
+}
+.group-list li {
+  margin-bottom: 0.5rem;
+}
