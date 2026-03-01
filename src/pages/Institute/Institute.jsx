@@ -13,7 +13,7 @@ const Institute = () => {
         <h2>Руководство</h2>
         <div className="director-card">
           <img
-            src="/public/dederychuk.jpg"
+            src="dederychuk.jpg"
             alt="Дедерчук Людмила Алексеевна"
             className="director-photo"
           />

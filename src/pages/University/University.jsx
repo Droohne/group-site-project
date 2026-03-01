@@ -48,12 +48,12 @@ const University = () => {
         <h2>Новости университета</h2>
         <div className="news-grid">
           <a href="https://psu.ru/news/" className="news-card">
-            <img src="/public/news.png" alt="Новости ПГНИУ" />
+            <img src="news.png" alt="Новости ПГНИУ" />
             <h3>Последние события и достижения ПГНИУ</h3>
             <p>Читайте о научных открытиях, студенческих проектах и культурных инициативах университета.</p>
           </a>
           <a href="https://psu.ru/events/" className="news-card">
-            <img src="/public/events.png" alt="События ПГНИУ" />
+            <img src="events.png" alt="События ПГНИУ" />
             <h3>События и мероприятия</h3>
             <p>Конференции, выставки, фестивали и олимпиады — узнайте о жизни ПГНИУ.</p>
           </a>

@@ -3,7 +3,7 @@
 }
 
 .university-hero {
-  background: url("/public/banner.png") center/cover no-repeat;
+  background: url("banner.png") center/cover no-repeat;
   color: white;
   border-radius: 12px;
   padding: 5rem 2rem;
