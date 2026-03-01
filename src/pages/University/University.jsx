@@ -39,7 +39,7 @@ const University = () => {
           гуманитарных и ИТ-наук. Академическое сообщество ПГНИУ активно участвует в международных проектах
           и внедрении инновационных технологий.
         </p>
-        <a href="https://psu.ru/nauka/" className="button-link">
+        <a href="https://psu.ru/news/?tag=61" className="button-link">
           Подробнее о науке
         </a>
       </section>
