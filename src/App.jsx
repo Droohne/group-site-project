@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import Header from "./components/Header"
-import Navbar from "./components/Navbar"
-import News from "./pages/News"
-import GroupList from "./pages/GroupList"
-import Teachers from "./pages/Teachers"
-import Schedule from "./pages/Schedule"
-import Contacts from "./pages/Contacts"
+import Header from "./components/Header/Header"
+import Navbar from "./components/Navbar/Navbar"
+import News from "./pages/News/News"
+import GroupList from "./pages/GroupList/GroupList"
+import Teachers from "./pages/Teachers/Teachers"
+import Schedule from "./pages/Schedule/Schedule"
+import Contacts from "./pages/Contacts/Contacts"
 
 function App() {
   return (

@@ -1,4 +1,4 @@
-// import './Teachers.css'
+import './Teachers.css'
 export default function Teachers() {
   const teachers = [
     { name: "Балюкина Людмила Анатольевна", institute: "Физико-математический институт", subjects: "Теория вероятностей и математическая статистика (лек)" },

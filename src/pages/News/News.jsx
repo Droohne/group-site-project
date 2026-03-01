@@ -1,4 +1,4 @@
-// import './News.css'
+import './News.css'
 
 export default function News() {
   const news = [

@@ -1,4 +1,4 @@
-// import './GroupList.css'
+import './GroupList.css'
 
 export default function GroupList() {
   const students = [
